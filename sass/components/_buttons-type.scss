@@ -1,0 +1,5 @@
+@each $type, $radius in (rounded, 100px),(square,0px),(solid,10px){
+  .btn-#{$type} {
+    border-radius: $radius;
+  }
+}

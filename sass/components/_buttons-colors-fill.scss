@@ -1,0 +1,24 @@
+@each $fill,$color,$background-color,$border-color,$hover-color, $text in (cool,$cool,transparent,$cool,$cool-hover,$text-color),
+(success,$success,transparent,$success,$success-hover,$text-color),
+(primary,$primary,transparent,$primary,$primary-hover,$text-color),
+(disturbed,$disturbed,transparent,$disturbed,$disturbed-hover,$text-color),
+(romantic,$romantic,transparent,$romantic,$romantic-hover,$text-color),
+(warning,$warning,transparent,$warning,$warning-hover,$text-color),
+(danger,$danger,transparent,$danger,$danger-hover,$text-color),
+(smile,$smile,transparent,$smile,$smile-hover,$text-color),
+(night,$night,transparent,$night,$night-hover,$text-color),
+(happy,$happy,transparent,$happy,$happy-hover,$text-color),
+(default,$default-hover,transparent,$default-hover,$default-color,$text-color)
+{
+  .btn-#{$fill}-fill {
+    background-color: lighten($color,12%);
+    color:$text-color;
+    border:2px solid lighten($border-color,12%);
+    &:hover,&:active,&:focus,&:active{
+      background-color: $hover-color;
+      color:$text;
+      border:2px solid $hover-color;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}

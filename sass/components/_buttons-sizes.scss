@@ -1,0 +1,8 @@
+
+@each $size, $text-size, $top ,$right in (xs, 10px, 8px,22px),(sm, 12px,14px, 28.8px),(md, 13.333px,16px,30px),(lg, 18px,21px,45px),(xl,22.22px,21px,45px){
+  .btn-#{$size} {
+        padding: $top $right;
+        line-height: $text-size !important;
+        font-size: $text-size !important;
+  }
+}

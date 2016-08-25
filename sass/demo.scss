@@ -1,0 +1,42 @@
+@import "base/variables";
+
+body,html{
+  margin:0;
+  overflow-x: hidden;
+  padding: 0;
+  color:$default-color;
+  font-family: 'verdana',sans-serif;
+}
+h2{
+  color: rgba(41,128,185 ,1);
+  text-transform: capitalize;
+}
+.container{
+  width: 80vw;
+  margin: 20px auto;
+  .card{
+    min-width:90%;
+    margin: 10px auto;
+    border: 1px solid #eee;
+    color:$default-color;
+    padding: 15px;
+    border-radius: 5px;
+  }
+}
+
+code{
+  background-color:#eee;
+  color: #555; 
+}
+
+p{
+  font-size: 14px;
+  font-weight:300;
+  color:#555;
+  line-height:20px;
+  letter-spacing: 0.5px;
+}
+
+span{
+  color:#ccc;
+}
