@@ -25,13 +25,38 @@
 
 &lt;input class="btn btn-primary btn-md btn-square" type="button" value="Input"&gt;
 
-&lt;input class="btn btn-primary btn-md btn-square" type="submit" value="Submit"&gt;  
-</code>    
+&lt;input class="btn btn-primary btn-md btn-square" type="submit" value="Submit"&gt;
+</code>
 </pre>
           </div>
           <span>Note:</span>
 <p>Links acting as buttons
 If the <code>&lt;a&gt;</code> elements are used to act as buttons –- triggering in-page functionality, rather than navigating to another document or section within the current page -- they should also be given an appropriate <code>role="button"</code>.</p>
+
+<h2>button varients</h2>
+<p>
+  Buttons comes with two varients 1.outline varient <code>.btn-default</code> , 2. fill varient <code>.btn-default-fill</code>
+</p>
+<span>Example</span>
+<div class="card">
+  <a class="btn btn-success btn-md btn-square" href="#" role="button">btn outline</a>
+  <a class="btn btn-success-fill btn-md btn-square" href="#" role="button">btn fill</a>
+
+<pre>
+<code>
+&lt;a class="btn btn-primary" href="#" role="button"&gt;btn-outline&lt;/a&gt;
+
+&lt;a class="btn btn-primary-fill" href="#" role="button"&gt;btn-fill&lt;/a&gt;
+</code>
+</pre>
+
+<span>Note:-</span>
+<p>
+  Outline button class don't need any addition to <code>.btn-primary</code>.If you want fill button you have to add <code>.btn-primary-fill</code> to get the fill effect.
+</p>
+</div>
+
+
 
 
        <h2>Button shapes</h2>
@@ -47,24 +72,26 @@ If the <code>&lt;a&gt;</code> elements are used to act as buttons –- triggerin
 
 &lt;a class="btn  btn-solid" href="#" role="button"&gt;btn-solid&lt;/a&gt;
 
-&lt;a class="btn btn-rounded" href="#" role="button"&gt;btn-rounded&lt;/a&gt; 
-</code>    
+&lt;a class="btn btn-rounded" href="#" role="button"&gt;btn-rounded&lt;/a&gt;
+</code>
 </pre>
        </div>
+
   <h2>Button colors</h2>
   <p>Button.css offers 10 flat color varients which look very decent. and perfectly fits to every project. And an aditional color which is default grey.<code>.btn-default</code></p>
+  <span>Example:</span>
   <div class="card">
-    <a class="btn btn-primary btn-md btn-square" href="#" role="button">btn-primary</a>
-    <a class="btn btn-danger btn-md btn-square" href="#" role="button">btn-danger</a>
-    <a class="btn btn-warning btn-md btn-square" href="#" role="button">btn-warning</a>
-    <a class="btn btn-night btn-md btn-square" href="#" role="button">btn-night</a>
-    <a class="btn btn-disturbed btn-md btn-square" href="#" role="button">btn-disturbed</a>
-    <a class="btn btn-cool btn-md btn-square" href="#" role="button">btn-cool</a>
-    <a class="btn btn-happy btn-md btn-square" href="#" role="button">btn-happy</a>
-    <a class="btn btn-romantic btn-md btn-square" href="#" role="button">btn-romantic</a>
-    <a class="btn btn-success btn-md btn-square" href="#" role="button">btn-success</a>
-    <a class="btn btn-default btn-md btn-square" href="#" role="button">btn-default</a>
-    <a class="btn btn-smile btn-md btn-square" href="#" role="button">btn-smile</a>
+    <a class="btn btn-primary btn-md btn-rounded" href="#" role="button">btn-primary</a>
+    <a class="btn btn-danger btn-md btn-rounded" href="#" role="button">btn-danger</a>
+    <a class="btn btn-warning btn-md btn-rounded" href="#" role="button">btn-warning</a>
+    <a class="btn btn-night btn-md btn-rounded" href="#" role="button">btn-night</a>
+    <a class="btn btn-disturbed btn-md btn-rounded" href="#" role="button">btn-disturbed</a>
+    <a class="btn btn-cool btn-md btn-rounded" href="#" role="button">btn-cool</a>
+    <a class="btn btn-happy btn-md btn-rounded" href="#" role="button">btn-happy</a>
+    <a class="btn btn-romantic btn-md btn-rounded" href="#" role="button">btn-romantic</a>
+    <a class="btn btn-success btn-md btn-rounded" href="#" role="button">btn-success</a>
+    <a class="btn btn-default btn-md btn-rounded" href="#" role="button">btn-default</a>
+    <a class="btn btn-smile btn-md btn-rounded" href="#" role="button">btn-smile</a>
 <pre>
 <code>
 &lt;a class="btn btn-primary" href="#" role="button"&gt;btn-primary&lt;/a&gt;
@@ -89,9 +116,34 @@ If the <code>&lt;a&gt;</code> elements are used to act as buttons –- triggerin
 
 &lt;a class="btn btn-smile" href="#" role="button"&gt;btn-smile&lt;/a&gt;
 </code>
-</pre>  
-         
+</pre>
   </div>
+
+<h2>button sizes</h2>
+<p>
+  In button.css buttons are available in 5 different sizes from extrasmall to jumbo. classes for differnt sizes <code>.btn-xs</code>,<code>.btn-sm</code>,<code>.btn-md</code>,<code>.btn-lg</code> and <code>.btn-xl</code>rounded
+<span>Example:</span>
+<div class="card">
+  <a class="btn btn-primary-fill btn-xs btn-square" href="#" role="button">btn-xs</a>
+  <a class="btn btn-danger-fill btn-sm btn-square" href="#" role="button">btn-sm</a>
+  <a class="btn btn-warning-fill btn-md btn-square" href="#" role="button">btn-md</a>
+  <a class="btn btn-cool-fill btn-lg btn-square" href="#" role="button">btn-lg</a>
+  <a class="btn btn-disturbed-fill btn-xl btn-square" href="#" role="button">btn-xl</a>
+<pre>
+<code>
+&lt;a class="btn btn-xs " href="#" role="button"&gt;btn-xs&lt;/a&gt;
+
+&lt;a class="btn btn-sm " href="#" role="button"&gt;btn-sm&lt;/a&gt;
+
+&lt;a class="btn btn-md " href="#" role="button"&gt;btn-md&lt;/a&gt;
+
+&lt;a class="btn  btn-lg " href="#" role="button"&gt;btn-lg&lt;/a&gt;
+
+&lt;a class="btn  btn-xl " href="#" role="button"&gt;btn-xl&lt;/a&gt;
+</code>
+</pre>
+</div>
+
        </div><!--outer-card-->
      </div><!--container-->
   </body>
