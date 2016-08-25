@@ -34,4 +34,8 @@ p {
 span {
   color: #ccc; }
 
+@media screen and (max-width: 720px) {
+  .container {
+    width: 95vw; } }
+
 /*# sourceMappingURL=demo.css.map */
