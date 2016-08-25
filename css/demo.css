@@ -10,7 +10,7 @@ h2 {
   text-transform: capitalize; }
 
 .container {
-  width: 80vw;
+  width: 90vw;
   margin: 20px auto; }
   .container .card {
     min-width: 90%;
@@ -34,8 +34,25 @@ p {
 span {
   color: #ccc; }
 
-@media screen and (max-width: 720px) {
-  .container {
-    width: 95vw; } }
+header {
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2980b9;
+  color: #fff; }
+  header h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 10px auto;
+    font-family: 'Verdana',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  header p {
+    color: #fff; }
 
 /*# sourceMappingURL=demo.css.map */
